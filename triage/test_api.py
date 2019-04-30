@@ -3,8 +3,8 @@ from sklearn.model_selection import train_test_split
 import requests
 import time
 
-import configs
-from api_helper_code import *
+from triage import configs
+from triage.api_helper_code import Training_object, Predict_object, eval_accur
 
 
 def main():
